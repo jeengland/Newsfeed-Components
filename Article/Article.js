@@ -85,6 +85,23 @@ const data = [
     thirdParagraph: `Hodor hodor - hodor... Hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor hodor hodor hodor hodor; hodor hodor? Hodor!
           Hodor hodor, HODOR hodor, hodor hodor?! Hodor! Hodor hodor, HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor, hodor.
           Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor hodor. Hodor.`
+  },
+  {
+    title: 'Devops Conference 2020',
+    date: 'December 11th, 2019',
+    firstParagraph: `I was sheriff of this county when I was twenty-five. Hard to believe. Grandfather was a lawman. Father too. Me and him was 
+    sheriff at the same time, him in Plano and me here. I think he was pretty proud of that. I know I was. Some of the old-time sheriffs never 
+    even wore a gun. A lot of folks find that hard to believe. Jim Scarborough never carried one. That the younger Jim. Gaston Boykins wouldn’t wear one.`,
+
+    secondParagraph: `Up in Commanche County. I always liked to hear about the old- timers. Never missed a chance to do so. You can’t help but 
+    compare yourself against the old timers. Can’t help but wonder how they would’ve operated these times. There was this boy I sent to Huntsville 
+    here a while back. My arrest and my testimony. He killed a fourteen-year-old girl. Papers said it was a crime of passion but he told me there wasn't any passion to it.`,
+
+    thirdParagraph: `Told me that he’d been planning to kill somebody for about as long as he could remember. Said that if they turned him out he’d do it again. Said he knew 
+    he was going to hell. Be there in about fifteen minutes. I don’t know what to make of that. I surely don’t. The crime you see now, it’s hard to even take its measure. It’s 
+    not that I’m afraid of it. I always knew you had to be willing to die to even do this job – not to be glorious. But I don’t want to push my chips forward and go out and meet 
+    something I don’t understand. You can say it’s my job to fight it but I don’t know what it is anymore. More than that, I don’t want to know. A man would have to put his soul 
+    at hazard. He would have to say, okay, I’ll be part of this world.`
   }
 ];
 
