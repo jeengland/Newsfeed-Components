@@ -130,6 +130,7 @@ const data = [
 
 */
 
+// Function for building an article from an array
 const articleBuilder = (obj) => {
   // Initialize dom elements
   article = document.createElement('article');
@@ -147,15 +148,20 @@ const articleBuilder = (obj) => {
   expand.classList.add('expandButton');
   // Put content into appropriate elements
   title.textContent = obj.title;
-  date.textContent = obj.textContent;
+  date.textContent = obj.date;
   par1.textContent = obj.firstParagraph;
   par2.textContent = obj.secondParagraph;
   par3.textContent = obj.thirdParagraph;
   expand.textContent = 'Expand'
   // Add event listener to the button
-  expand.addEventListener('click', (event) => {
-    event.target.parentNode.classList.toggle('article-open');
-  })
+  expand.addEventListener('click', (event) => event.target.parentNode.classList.toggle('article-open'));
+  // Add button that closes article -- STRETCH --
+  const close = document.createElement('button');
+  article.prepend(close);
+  close.textContent = 'X';
+  close.style.margin = '5px 99% 0px'
+  title.style.marginTop = '-15px'
+  close.addEventListener('click', (event) => event.target.parentNode.style.display = 'none');
   // Return the article
   return article;
 };
